@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --primary-color: #e21414de;
+    --sec-color: #000000;
+    --bg-color: #f87878;
+    --black: #000000;
+
+}
+
+* {
+    font-family: 'Open Sans', sans-serif ;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    /* background-color: rgba(255, 255, 255, 2.7); */
+    background-image: url(img/bg.jpg );
+    background-size:cover ;
+    background-repeat:no-repeat;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+/* Navbar Start*/
+.navbar {
+    padding: 1rem 7%;
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+}
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar .navbar-brand{
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+.nav-item {
+    font-weight: 500;
+}
+.nav-item:hover {
+    opacity: 0.8;
+}
+/* Navbar End*/
+
+
+/* Login Content Start */
+
+
+/* Login Content End */
+
+
+/* signup Content Start */
+
+/* signup Content End */
+
+
+/* Admin Page Start */
+
+/* Admin Page End */
+
+
+/* Mahasiswa Page Start */
+
+/* Mahasiswa Page End */ 
+
+
+/* Insert Page Start */
+
+/* Insert Page End */
+
+
+/* Edit Page Start */
+
+/* Edit Page End */
