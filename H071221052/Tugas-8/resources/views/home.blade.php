@@ -37,7 +37,7 @@
                         mengkhususkan diri dalam reproduksi dan
                         penjualan model mobil klasik dan koleksi memorabilia otomotif yang langka.</p>
                     <a href="/product" class="mt-2 btn btn__main" role="button"
-                        style="background-color: #C65CDD"><span></span>Go To Product</a>
+                        style="background-color: #183D3D"><span></span>Go To Product</a>
                 </div>
             </div>
         </div>

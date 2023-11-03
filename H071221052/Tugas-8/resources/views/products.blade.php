@@ -14,7 +14,7 @@
             justify-content: center;
             align-items: center;
             flex-direction: column;
-            background-color: #580ef6;
+            background-color: #000000;
             width: 650px;
             padding: 1.4rem;
             border-radius: 10px;
@@ -33,7 +33,7 @@
                 <center>
                     <div class="product-card mb-4">
                         <h3><a href="{{ route('show', $product->productName) }}"
-                                style="color: #da8ee7">{{ $product->productName }}</a></h3>
+                                style="color: #C70039">{{ $product->productName }}</a></h3>
                                 <center>
                         <table>
                                 <form>

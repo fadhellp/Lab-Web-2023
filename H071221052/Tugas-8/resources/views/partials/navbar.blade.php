@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-dark"
-    style="background-color: #8a00c2; background: linear-gradient(to top, transparent, #8a00c2);
+    style="background-color: #000000; background: linear-gradient(to top, transparent, #000000);
 ">
     <div class="container mt-2">
         <ul>
@@ -23,7 +23,7 @@
             <form class="d-flex align-items-end" action="{{ route('productlines') }}" method="GET">
                 <input class="form-control me-2" type="search" name="productLine" placeholder="Search by Product Line"
                     aria-label="Search">
-                <button class="btn btn__main" style="background-color: #C65CDD; color: #fff"
+                <button class="btn btn__main" style="background-color: #183D3D; color: #fff"
                     type="submit"><span></span>Search</button>
             </form>
         </div>

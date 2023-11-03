@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <style>
         body {
-            background-color: #393646;
+            background-color: #000000;
         }
 
         .hero__video {
@@ -129,7 +129,7 @@
             justify-content: center;
             align-items: center;
             flex-direction: column;
-            background-color: #580ef6;
+            background-color: #000000;
             width: 650px;
             padding: 1.4rem;
             border-radius: 10px;
@@ -142,7 +142,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #8a00c2; background: linear-gradient(to top, transparent, #8a00c2);">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #183D3D; background: linear-gradient(to top, transparent, #183D3D);">
         <div class="container">
             <ul>
                 <li>
@@ -164,7 +164,7 @@
                 <form class="d-flex align-items-end" action="{{ route('productlines') }}" method="GET">
                     <input class="form-control me-2" type="search" name="productLine"
                         placeholder="Search by Product Line" aria-label="Search">
-                    <button class="btn btn__main" style="background-color: #C65CDD; color: #fff"
+                    <button class="btn btn__main" style="background-color: #183D3D; color: #fff"
                         type="submit"><span></span>Search</button>
                 </form>
             </div>
@@ -210,7 +210,7 @@
                 </tr>
             </form>
         </table>
-        <a href="/product" class="btn btn__main mt-5" style="background-color: #C65CDD">Back to products</a>
+        <a href="/product" class="btn btn__main mt-5" style="background-color: #183D3D">Back to products</a>
     </div>
 
 
