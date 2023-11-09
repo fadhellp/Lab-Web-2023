@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: url('blackjack1.jpg'); /* Ganti 'gambar-anda.jpg' dengan nama file gambar Anda */
+    background-size: cover; /* Untuk mengisi seluruh latar belakang */
+    background-attachment: fixed; /* Untuk mengunci latar belakang */
+    background-repeat: no-repeat; 
+    color: aliceblue;
+}
+
+#dealer-cards img {
+    height: 125px;
+    width: 75px;
+    margin: 2px;
+}
+
+#your-cards img {
+    height: 125px;
+    width: 75px;
+    margin: 2px;
+}
+
+#start {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+}
+
+#hit {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+}
+
+#stay {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+
+}
+#tryAgain {
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+}
+
+#bet{
+    margin-bottom: 5px;
+}
